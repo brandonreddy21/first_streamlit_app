@@ -72,7 +72,4 @@ if streamlit.button('Get Fruit Load List'):
 # Don't run anything past here while we troubleshoot
 streamlit.stop()
 
-#import snowflake.connector
 
-except URLError as e:
-  streamlit.error()
